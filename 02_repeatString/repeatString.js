@@ -1,4 +1,9 @@
-const repeatString = function() {
+const repeatString = function(string, repeats) {
+    if (repeats<0){
+        return "ERROR"
+    }
+    let result = string.repeat(repeats)
+    return result
 
 };
 
